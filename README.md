@@ -13,6 +13,8 @@
 
 ### Instructions:
 
+*From terminal*:  
+
 Clone this repository.  
 
 `cd react-social-cards` 
