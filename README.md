@@ -15,7 +15,7 @@
 
 Clone this repository.  
 
-`cd react-social cards`  
+`cd react-social-cards`  
 
 `npm start`  
 
