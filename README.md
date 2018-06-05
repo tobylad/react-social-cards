@@ -4,6 +4,6 @@
 
 **What's used in this project**
 
--create-react-app
--React components
--Mapping a list of components
+-create-react-app  
+-React components  
+-Mapping a list of components 
