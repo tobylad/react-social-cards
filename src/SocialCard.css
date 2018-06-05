@@ -1,0 +1,106 @@
+.outer-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto 10px;
+  padding-bottom: 20px;
+  width: 80%;
+  border-bottom: 1px solid silver;
+}
+
+.oc-top-box, .oc-bottom-box {
+  margin-left: 16%;
+  line-height: 3px;
+}
+
+.oc-bottom-box {
+  margin-top: 20px;
+}
+
+.oc-bottom-box__icons {
+  display: inline;
+  margin-right: 30px;
+}
+
+.oc-bottom-box #chat {
+  color: #707070;
+}
+
+.oc-bottom-box #retweet {
+  color: #00FF00;
+}
+
+.oc-bottom-box #heart {
+  color: #FF00FF;
+}
+
+.oc-bottom-box__icons strong {
+  margin-left: 5px;
+}
+
+.outer-card .music-icon {
+  display: inline;
+  margin-right: 15px;
+}
+
+.outer-card .twitter-link {
+  display: inline;
+  font-weight: normal;
+  color: silver;
+  margin-left: 5px;
+}
+
+.inner-card {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 60%;
+  margin: 20px auto 0;
+  border: 2px solid black;
+  box-shadow: 0px 0px 6px silver;
+}
+
+.inner-card h2 {
+  margin: 25px 15px 0px;
+  color: #fff;
+  font-weight: normal;
+  line-height: 35px;
+}
+
+.inner-card img {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 415px) {
+  .inner-card {
+    width: 95%;
+  }
+
+  .outer-card {
+    width: 100%;
+  }
+
+  .oc-top-box, .oc-bottom-box {
+    margin-left: 2%;
+  }
+}
+
+.card-top {
+  flex-grow: 2;
+  background-color: #3cb371;
+}
+
+.card-bottom {
+  flex-grow: 1;
+  background-color: #fff;
+  line-height: 100%;
+}
+
+.card-bottom-text {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.card-bottom-text p {
+  font-size: 85%;
+}
