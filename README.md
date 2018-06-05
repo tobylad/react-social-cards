@@ -19,4 +19,7 @@ Clone this repository.
 
 `npm start`  
 
-Navigate to your local browser.
+If npm start doesn't bring you right to the page:  
+
+Navigate to your local browser.  
+http://localhost:3000/ is the default URL.
